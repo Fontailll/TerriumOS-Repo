@@ -1,0 +1,17 @@
+repo = "Terrium Official"
+
+[[package]]
+name = "nano"
+file = "packages/nano.toml"
+
+[[package]]
+name = "vim"
+file = "packages/vim.toml"
+
+[[package]]
+name = "git"
+file = "packages/git.toml"
+
+[[package]]
+name = "gcc"
+file = "packages/gcc.toml"
