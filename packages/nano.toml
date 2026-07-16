@@ -1,0 +1,14 @@
+name = "nano"
+
+version = "8.2"
+
+description = "GNU Nano Text Editor"
+
+source = "https://www.nano-editor.org/dist/v8/nano-8.2.tar.xz"
+
+build_system = "autotools"
+
+depends = [
+    "glibc",
+    "ncurses"
+]
