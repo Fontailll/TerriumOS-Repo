@@ -1,9 +1,0 @@
-name = "libpng"
-version = "1.6.43"
-description = "A library for PNG images"
-homepage = "http://www.libpng.org/pub/png/libpng.html"
-license = ["libpng"]
-source = "https://download.sourceforge.net/libpng/libpng-1.6.43.tar.xz"
-build_system = "cmake"
-depends = ["zlib"]
-optional_depends = []
