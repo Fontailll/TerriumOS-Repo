@@ -1,9 +1,0 @@
-name = "dunst"
-version = "1.9.2"
-description = "A lightweight and customizable notification daemon"
-homepage = "https://dunst-project.org/"
-license = ["BSD-3-Clause"]
-source = "https://github.com/dunst-project/dunst/archive/refs/tags/v1.9.2.tar.gz"
-build_system = "meson"
-depends = ["glibc", "dbus", "libX11", "glib"]
-optional_depends = ["libXinerama", "libXrandr", "libXSS"]
