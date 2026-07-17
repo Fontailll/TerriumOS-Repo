@@ -1,9 +1,0 @@
-name = "which"
-version = "2.21"
-description = "Shows the full path of (shell) commands"
-homepage = "https://savannah.gnu.org/projects/which/"
-license = ["GPL-3.0"]
-source = "https://ftp.gnu.org/gnu/which/which-2.21.tar.gz"
-build_system = "autotools"
-depends = ["glibc"]
-optional_depends = []
