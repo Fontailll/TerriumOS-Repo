@@ -1,9 +1,0 @@
-name = "lf"
-version = "r33"
-description = "A terminal file manager written in Go"
-homepage = "https://github.com/gokcehan/lf"
-license = ["MIT"]
-source = "https://github.com/gokcehan/lf/archive/refs/tags/r33.tar.gz"
-build_system = "go"
-depends = ["glibc"]
-optional_depends = []
