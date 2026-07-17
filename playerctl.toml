@@ -1,9 +1,0 @@
-name = "playerctl"
-version = "2.1.2"
-description = "A command-line utility for controlling media players"
-homepage = "https://github.com/altdesktop/playerctl"
-license = ["LGPL-3.0"]
-source = "https://github.com/altdesktop/playerctl/archive/refs/tags/v2.1.2.tar.gz"
-build_system = "meson"
-depends = ["glibc", "glib"]
-optional_depends = []
