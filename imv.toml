@@ -1,9 +1,0 @@
-name = "imv"
-version = "4.2.0"
-description = "A simple terminal image viewer for X11 and Wayland"
-homepage = "https://sr.ht/~exec64/imv/"
-license = ["MIT"]
-source = "https://sr.ht/~exec64/imv/archive/v4.2.0.tar.gz"
-build_system = "meson"
-depends = ["glibc", "libpng", "libX11"]
-optional_depends = ["wayland", "sdl2"]
