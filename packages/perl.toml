@@ -1,0 +1,9 @@
+name = "perl"
+version = "5.40.0"
+description = "A highly capable, feature-rich programming language"
+homepage = "https://www.perl.org/"
+license = ["Artistic-2.0", "GPL-1.0+"]
+source = "https://www.cpan.org/src/5.0/perl-5.40.0.tar.gz"
+build_system = "make"
+depends = ["glibc"]
+optional_depends = []

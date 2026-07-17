@@ -1,0 +1,9 @@
+name = "dust"
+version = "1.2.1"
+description = "A more intuitive version of du in Rust"
+homepage = "https://github.com/bootandy/dust"
+license = ["Apache-2.0"]
+source = "https://github.com/bootandy/dust/archive/refs/tags/v1.2.1.tar.gz"
+build_system = "cargo"
+depends = ["glibc"]
+optional_depends = []

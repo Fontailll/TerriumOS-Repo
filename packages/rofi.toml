@@ -1,0 +1,9 @@
+name = "rofi"
+version = "1.7.8"
+description = "A window switcher, application launcher and dmenu replacement"
+homepage = "https://github.com/DaveDavenport/rofi"
+license = ["MIT"]
+source = "https://github.com/DaveDavenport/rofi/archive/refs/tags/1.7.8.tar.gz"
+build_system = "meson"
+depends = ["glibc", "libX11", "glib"]
+optional_depends = ["libXft", "pango"]

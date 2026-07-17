@@ -1,0 +1,9 @@
+name = "bash"
+version = "5.2.21"
+description = "GNU Bourne Again Shell"
+homepage = "https://www.gnu.org/software/bash/"
+license = ["GPL-3.0"]
+source = "https://ftp.gnu.org/gnu/bash/bash-5.2.21.tar.gz"
+build_system = "autotools"
+depends = ["glibc", "readline"]
+optional_depends = ["ncurses"]

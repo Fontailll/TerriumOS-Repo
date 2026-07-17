@@ -1,0 +1,9 @@
+name = "feh"
+version = "3.10.3"
+description = "A fast and light image viewer"
+homepage = "https://feh.finalrewind.org/"
+license = ["MIT"]
+source = "https://feh.finalrewind.org/feh-3.10.3.tar.bz2"
+build_system = "make"
+depends = ["glibc", "libpng", "libX11"]
+optional_depends = ["imlib2"]

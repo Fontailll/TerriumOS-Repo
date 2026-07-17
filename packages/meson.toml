@@ -1,0 +1,9 @@
+name = "meson"
+version = "1.4.1"
+description = "A fast and user-friendly build system"
+homepage = "https://mesonbuild.com/"
+license = ["Apache-2.0"]
+source = "https://github.com/mesonbuild/meson/releases/download/1.4.1/meson-1.4.1.tar.gz"
+build_system = "make"
+depends = ["python", "ninja"]
+optional_depends = []

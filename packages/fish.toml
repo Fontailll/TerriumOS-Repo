@@ -1,0 +1,9 @@
+name = "fish"
+version = "3.7.1"
+description = "A smart and user-friendly command line shell"
+homepage = "https://fishshell.com/"
+license = ["GPL-2.0"]
+source = "https://github.com/fish-shell/fish-shell/archive/refs/tags/3.7.1.tar.gz"
+build_system = "cmake"
+depends = ["glibc", "ncurses"]
+optional_depends = []

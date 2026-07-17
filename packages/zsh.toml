@@ -1,0 +1,9 @@
+name = "zsh"
+version = "5.9"
+description = "A powerful shell that operates as both an interactive shell and a powerful scripting language"
+homepage = "https://www.zsh.org/"
+license = ["MIT"]
+source = "https://sourceforge.net/projects/zsh/files/zsh/5.9/zsh-5.9.tar.xz"
+build_system = "autotools"
+depends = ["glibc", "ncurses"]
+optional_depends = ["pcre"]

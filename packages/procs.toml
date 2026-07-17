@@ -1,0 +1,9 @@
+name = "procs"
+version = "0.14.7"
+description = "A modern replacement for ps written in Rust"
+homepage = "https://github.com/dalance/procs"
+license = ["MIT"]
+source = "https://github.com/dalance/procs/archive/refs/tags/v0.14.7.tar.gz"
+build_system = "cargo"
+depends = ["glibc"]
+optional_depends = []

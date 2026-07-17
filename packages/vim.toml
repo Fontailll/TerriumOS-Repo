@@ -1,0 +1,9 @@
+name = "vim"
+version = "9.1.0378"
+description = "A highly configurable text editor built to make creating and changing any kind of text very efficient"
+homepage = "https://www.vim.org/"
+license = ["Vim"]
+source = "https://github.com/vim/vim/archive/refs/tags/v9.1.0378.tar.gz"
+build_system = "make"
+depends = ["glibc", "ncurses"]
+optional_depends = ["python", "lua"]

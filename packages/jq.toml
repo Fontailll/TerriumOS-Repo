@@ -1,0 +1,9 @@
+name = "jq"
+version = "1.7.1"
+description = "A lightweight and flexible command-line JSON processor"
+homepage = "https://jqlang.github.io/jq/"
+license = ["MIT"]
+source = "https://github.com/jqlang/jq/archive/refs/tags/jq-1.7.1.tar.gz"
+build_system = "autotools"
+depends = ["glibc"]
+optional_depends = ["oniguruma"]

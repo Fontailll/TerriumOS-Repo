@@ -1,0 +1,9 @@
+name = "picom"
+version = "12"
+description = "A lightweight compositor for X11"
+homepage = "https://github.com/yshui/picom"
+license = ["MIT", "MPL-2.0"]
+source = "https://github.com/yshui/picom/archive/refs/tags/v12.tar.gz"
+build_system = "meson"
+depends = ["glibc", "libX11", "pixman"]
+optional_depends = ["libXext", "dbus", "libepoxy"]

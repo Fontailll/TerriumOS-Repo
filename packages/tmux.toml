@@ -1,0 +1,9 @@
+name = "tmux"
+version = "3.4"
+description = "A terminal multiplexer"
+homepage = "https://github.com/tmux/tmux"
+license = ["ISC"]
+source = "https://github.com/tmux/tmux/archive/refs/tags/3.4.tar.gz"
+build_system = "autotools"
+depends = ["glibc", "ncurses"]
+optional_depends = []

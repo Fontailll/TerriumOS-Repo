@@ -1,0 +1,9 @@
+name = "make"
+version = "4.4.1"
+description = "GNU Make build automation tool"
+homepage = "https://www.gnu.org/software/make/"
+license = ["GPL-3.0"]
+source = "https://ftp.gnu.org/gnu/make/make-4.4.1.tar.gz"
+build_system = "autotools"
+depends = ["glibc"]
+optional_depends = ["guile"]

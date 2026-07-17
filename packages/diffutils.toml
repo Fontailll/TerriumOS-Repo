@@ -1,0 +1,9 @@
+name = "diffutils"
+version = "3.10"
+description = "A package of several GNU utilities for finding differences between files"
+homepage = "https://www.gnu.org/software/diffutils/"
+license = ["GPL-3.0"]
+source = "https://ftp.gnu.org/gnu/diffutils/diffutils-3.10.tar.xz"
+build_system = "autotools"
+depends = ["glibc"]
+optional_depends = []

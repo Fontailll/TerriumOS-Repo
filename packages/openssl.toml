@@ -1,0 +1,9 @@
+name = "openssl"
+version = "3.3.1"
+description = "A full-stacked general purpose toolkit for TLS and SSL"
+homepage = "https://www.openssl.org/"
+license = ["Apache-2.0"]
+source = "https://github.com/openssl/openssl/releases/download/openssl-3.3.1/openssl-3.3.1.tar.gz"
+build_system = "make"
+depends = ["glibc", "zlib"]
+optional_depends = []

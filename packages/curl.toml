@@ -1,0 +1,9 @@
+name = "curl"
+version = "8.7.1"
+description = "A command line tool and library for transferring data with URL syntax"
+homepage = "https://curl.se/"
+license = ["MIT"]
+source = "https://curl.se/download/curl-8.7.1.tar.xz"
+build_system = "autotools"
+depends = ["openssl", "zlib"]
+optional_depends = []

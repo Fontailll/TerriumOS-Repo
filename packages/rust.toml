@@ -1,0 +1,9 @@
+name = "rust"
+version = "1.78.0"
+description = "A systems programming language focused on safety and performance"
+homepage = "https://www.rust-lang.org/"
+license = ["MIT", "Apache-2.0"]
+source = "https://static.rust-lang.org/dist/rustc-1.78.0-src.tar.gz"
+build_system = "make"
+depends = ["cmake", "gcc"]
+optional_depends = ["llvm"]

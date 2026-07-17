@@ -1,0 +1,9 @@
+name = "flex"
+version = "2.6.4"
+description = "A tool for generating scanners (lexical analyzers)"
+homepage = "https://github.com/westes/flex"
+license = ["BSD-2-Clause"]
+source = "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+build_system = "autotools"
+depends = ["glibc"]
+optional_depends = ["m4"]

@@ -1,0 +1,9 @@
+name = "bzip2"
+version = "1.0.8"
+description = "A freely available, patent-free, high-quality data compressor"
+homepage = "https://sourceware.org/bzip2/"
+license = ["BSD-3-Clause"]
+source = "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz"
+build_system = "make"
+depends = ["glibc"]
+optional_depends = []
