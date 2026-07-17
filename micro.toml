@@ -1,9 +1,0 @@
-name = "micro"
-version = "2.0.14"
-description = "A modern and intuitive terminal-based text editor"
-homepage = "https://micro-editor.github.io/"
-license = ["MIT"]
-source = "https://github.com/zyedidia/micro/archive/refs/tags/v2.0.14.tar.gz"
-build_system = "go"
-depends = ["glibc"]
-optional_depends = []
