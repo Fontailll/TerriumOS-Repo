@@ -1,9 +1,0 @@
-name = "btop"
-version = "1.4.3"
-description = "A resource monitor that displays usage and stats for processor, memory, disks, network, and processes"
-homepage = "https://github.com/aristocratos/btop"
-license = ["Apache-2.0"]
-source = "https://github.com/aristocratos/btop/archive/refs/tags/v1.4.3.tar.gz"
-build_system = "cmake"
-depends = ["glibc", "ncurses"]
-optional_depends = []
