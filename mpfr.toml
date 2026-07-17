@@ -1,9 +1,0 @@
-name = "mpfr"
-version = "4.2.2"
-description = "A C library for multiple-precision floating-point computations"
-homepage = "https://www.mpfr.org/"
-license = ["LGPL-3.0"]
-source = "https://ftp.gnu.org/gnu/mpfr/mpfr-4.2.2.tar.xz"
-build_system = "autotools"
-depends = ["gmp"]
-optional_depends = []
