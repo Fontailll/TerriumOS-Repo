@@ -1,9 +1,0 @@
-name = "dmenu"
-version = "5.3"
-description = "A dynamic menu for X"
-homepage = "https://tools.suckless.org/dmenu/"
-license = ["MIT"]
-source = "https://tools.suckless.org/dmenu/download/dmenu-5.3.tar.gz"
-build_system = "make"
-depends = ["glibc", "libX11"]
-optional_depends = []
