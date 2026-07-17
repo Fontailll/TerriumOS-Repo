@@ -1,9 +1,0 @@
-name = "file"
-version = "5.45"
-description = "A utility to determine the type of files"
-homepage = "https://astron.com/pub/file/"
-license = ["BSD-2-Clause"]
-source = "https://astron.com/pub/file/file-5.45.tar.gz"
-build_system = "autotools"
-depends = ["glibc", "zlib"]
-optional_depends = []
