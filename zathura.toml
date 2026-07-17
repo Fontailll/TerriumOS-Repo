@@ -1,9 +1,0 @@
-name = "zathura"
-version = "0.5.6"
-description = "A document viewer with a minimalistic interface"
-homepage = "https://github.com/pwmt/zathura"
-license = ["Zlib"]
-source = "https://github.com/pwmt/zathura/archive/refs/tags/0.5.6.tar.gz"
-build_system = "meson"
-depends = ["glibc", "libpng"]
-optional_depends = ["gtk3", "poppler"]
