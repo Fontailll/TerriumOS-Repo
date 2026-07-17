@@ -1,9 +1,0 @@
-name = "git"
-version = "2.45.0"
-description = "Distributed version control system"
-homepage = "https://git-scm.com/"
-license = ["GPL-2.0"]
-source = "https://github.com/git/git/archive/refs/tags/v2.45.0.tar.gz"
-build_system = "make"
-depends = ["curl", "openssl", "zlib", "perl", "python"]
-optional_depends = []
