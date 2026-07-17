@@ -1,9 +1,0 @@
-name = "yazi"
-version = "0.3.3"
-description = "A blazing fast terminal file manager written in Rust"
-homepage = "https://yazi-rs.github.io/"
-license = ["MIT"]
-source = "https://github.com/sxyazi/yazi/archive/refs/tags/yazi-v0.3.3.tar.gz"
-build_system = "cargo"
-depends = ["glibc"]
-optional_depends = ["ffmpeg", "unzip", "7z", "jq"]
