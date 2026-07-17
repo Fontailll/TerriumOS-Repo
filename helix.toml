@@ -1,9 +1,0 @@
-name = "helix"
-version = "24.07"
-description = "A post-modern modal text editor"
-homepage = "https://helix-editor.com/"
-license = ["MPL-2.0"]
-source = "https://github.com/helix-editor/helix/archive/refs/tags/24.07.tar.gz"
-build_system = "cargo"
-depends = ["glibc"]
-optional_depends = []
