@@ -1,9 +1,0 @@
-name = "less"
-version = "661"
-description = "A pager similar to more, but better"
-homepage = "https://www.greenwoodsoftware.com/less/"
-license = ["BSD-3-Clause"]
-source = "https://www.greenwoodsoftware.com/less/less-661.tar.gz"
-build_system = "make"
-depends = ["glibc", "ncurses"]
-optional_depends = []
