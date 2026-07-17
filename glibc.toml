@@ -1,9 +1,0 @@
-name = "glibc"
-version = "2.39"
-description = "GNU C Library"
-homepage = "https://www.gnu.org/software/libc/"
-license = ["LGPL-2.1"]
-source = "https://ftp.gnu.org/gnu/glibc/glibc-2.39.tar.xz"
-build_system = "autotools"
-depends = []
-optional_depends = []
