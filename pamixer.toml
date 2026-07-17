@@ -1,9 +1,0 @@
-name = "pamixer"
-version = "1.6.1"
-description = "A simple command-line PulseAudio mixer"
-homepage = "https://github.com/cfenollosa/pamixer"
-license = ["MIT"]
-source = "https://github.com/cfenollosa/pamixer/archive/refs/tags/1.6.tar.gz"
-build_system = "meson"
-depends = ["glibc", "libpulse"]
-optional_depends = []
