@@ -1,9 +1,0 @@
-name = "libffi"
-version = "3.4.6"
-description = "A portable foreign function interface library"
-homepage = "https://sourceware.org/libffi/"
-license = ["MIT"]
-source = "https://github.com/libffi/libffi/releases/download/v3.4.6/libffi-3.4.6.tar.gz"
-build_system = "autotools"
-depends = ["glibc"]
-optional_depends = []
