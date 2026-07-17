@@ -1,9 +1,0 @@
-name = "gzip"
-version = "1.13"
-description = "GNU zip compression utility"
-homepage = "https://www.gnu.org/software/gzip/"
-license = ["GPL-3.0"]
-source = "https://ftp.gnu.org/gnu/gzip/gzip-1.13.tar.xz"
-build_system = "autotools"
-depends = ["glibc"]
-optional_depends = []
