@@ -1,9 +1,0 @@
-name = "e2fsprogs"
-version = "1.47.1"
-description = "Ext2/3/4 filesystem utilities"
-homepage = "https://e2fsprogs.sourceforge.io/"
-license = ["GPL-2.0"]
-source = "https://github.com/tytso/e2fsprogs/archive/refs/tags/v1.47.1.tar.gz"
-build_system = "autotools"
-depends = ["glibc"]
-optional_depends = ["util-linux"]
