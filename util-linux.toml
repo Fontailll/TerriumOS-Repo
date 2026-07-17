@@ -1,0 +1,9 @@
+name = "util-linux"
+version = "2.40"
+description = "A random collection of Linux utilities"
+homepage = "https://github.com/util-linux/util-linux"
+license = ["GPL-2.0", "BSD-3-Clause", "BSD-2-Clause"]
+source = "https://github.com/util-linux/util-linux/archive/refs/tags/v2.40.tar.xz"
+build_system = "autotools"
+depends = ["glibc", "zlib"]
+optional_depends = ["ncurses", "readline"]

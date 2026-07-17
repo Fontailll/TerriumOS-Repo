@@ -1,0 +1,9 @@
+name = "rsync"
+version = "3.3.0"
+description = "A fast and versatile file copying tool"
+homepage = "https://rsync.samba.org/"
+license = ["GPL-3.0"]
+source = "https://download.samba.org/pub/rsync/rsync-3.3.0.tar.gz"
+build_system = "make"
+depends = ["glibc", "zlib"]
+optional_depends = []

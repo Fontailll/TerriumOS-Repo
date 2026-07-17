@@ -1,0 +1,9 @@
+name = "pkgconf"
+version = "2.2.0"
+description = "A package compiler and linker metadata tool"
+homepage = "https://pkgconf.org/"
+license = ["MIT"]
+source = "https://github.com/pkgconf/pkgconf/archive/refs/tags/pkgconf-2.2.0.tar.gz"
+build_system = "meson"
+depends = ["glibc"]
+optional_depends = []

@@ -1,0 +1,9 @@
+name = "linux"
+version = "6.9"
+description = "The Linux kernel"
+homepage = "https://www.kernel.org/"
+license = ["GPL-2.0"]
+source = "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.9.tar.xz"
+build_system = "make"
+depends = ["glibc"]
+optional_depends = ["bc", "flex", "libelf"]

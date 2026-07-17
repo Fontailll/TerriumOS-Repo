@@ -1,0 +1,9 @@
+name = "ninja"
+version = "1.12.1"
+description = "A small build system with a focus on speed"
+homepage = "https://ninja-build.org/"
+license = ["Apache-2.0"]
+source = "https://github.com/ninja-build/ninja/archive/refs/tags/v1.12.1.tar.gz"
+build_system = "make"
+depends = ["glibc"]
+optional_depends = []

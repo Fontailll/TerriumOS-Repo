@@ -1,0 +1,9 @@
+name = "dua-cli"
+version = "2.29.1"
+description = "A tool to conveniently learn about the disk usage of directories"
+homepage = "https://github.com/Byron/dua-cli"
+license = ["MIT"]
+source = "https://github.com/Byron/dua-cli/archive/refs/tags/v2.29.1.tar.gz"
+build_system = "cargo"
+depends = ["glibc"]
+optional_depends = []

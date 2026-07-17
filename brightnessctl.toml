@@ -1,0 +1,9 @@
+name = "brightnessctl"
+version = "0.5.1"
+description = "A program to read and control device brightness"
+homepage = "https://github.com/Hummer12007/brightnessctl"
+license = ["GPL-3.0"]
+source = "https://github.com/Hummer12007/brightnessctl/archive/refs/tags/0.5.1.tar.gz"
+build_system = "make"
+depends = ["glibc"]
+optional_depends = []

@@ -1,0 +1,9 @@
+name = "mpv"
+version = "0.38.0"
+description = "A free, open, and cross-platform media player"
+homepage = "https://mpv.io/"
+license = ["GPL-2.0"]
+source = "https://github.com/mpv-player/mpv/archive/refs/tags/v0.38.0.tar.gz"
+build_system = "meson"
+depends = ["glibc", "ffmpeg", "zlib"]
+optional_depends = ["libX11", "wayland", "pipewire"]

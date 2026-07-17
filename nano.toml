@@ -1,0 +1,9 @@
+name = "nano"
+version = "8.2"
+description = "A small and friendly text editor"
+homepage = "https://www.nano-editor.org/"
+license = ["GPL-3.0"]
+source = "https://www.nano-editor.org/dist/v8/nano-8.2.tar.xz"
+build_system = "autotools"
+depends = ["glibc", "ncurses"]
+optional_depends = []

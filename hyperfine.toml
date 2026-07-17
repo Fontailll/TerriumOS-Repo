@@ -1,0 +1,9 @@
+name = "hyperfine"
+version = "1.18.0"
+description = "A command-line benchmarking tool"
+homepage = "https://github.com/sharkdp/hyperfine"
+license = ["Apache-2.0"]
+source = "https://github.com/sharkdp/hyperfine/archive/refs/tags/v1.18.0.tar.gz"
+build_system = "cargo"
+depends = ["glibc"]
+optional_depends = []

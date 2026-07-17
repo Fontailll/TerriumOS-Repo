@@ -1,0 +1,9 @@
+name = "htop"
+version = "3.3.0"
+description = "An interactive process viewer"
+homepage = "https://htop.dev/"
+license = ["GPL-2.0"]
+source = "https://github.com/htop-dev/htop/releases/download/3.3.0/htop-3.3.0.tar.xz"
+build_system = "meson"
+depends = ["glibc", "ncurses"]
+optional_depends = ["libcap"]

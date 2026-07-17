@@ -1,0 +1,9 @@
+name = "python"
+version = "3.12.4"
+description = "An interpreted, interactive, object-oriented programming language"
+homepage = "https://www.python.org/"
+license = ["PSF-2.0"]
+source = "https://www.python.org/ftp/python/3.12.4/Python-3.12.4.tar.xz"
+build_system = "autotools"
+depends = ["glibc", "openssl", "zlib", "readline", "ncurses", "sqlite", "libffi", "xz"]
+optional_depends = ["gdbm", "libuuid"]

@@ -1,0 +1,9 @@
+name = "gettext"
+version = "0.22.5"
+description = "GNU Internationalization utilities"
+homepage = "https://www.gnu.org/software/gettext/"
+license = ["GPL-3.0"]
+source = "https://ftp.gnu.org/gnu/gettext/gettext-0.22.5.tar.xz"
+build_system = "autotools"
+depends = ["glibc"]
+optional_depends = ["libunistring"]

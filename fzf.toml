@@ -1,0 +1,9 @@
+name = "fzf"
+version = "0.53.0"
+description = "A command-line fuzzy finder"
+homepage = "https://github.com/junegunn/fzf"
+license = ["MIT"]
+source = "https://github.com/junegunn/fzf/archive/refs/tags/v0.53.0.tar.gz"
+build_system = "go"
+depends = ["glibc"]
+optional_depends = []

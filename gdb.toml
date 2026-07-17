@@ -1,0 +1,9 @@
+name = "gdb"
+version = "14.2"
+description = "GNU Debugger"
+homepage = "https://www.gnu.org/software/gdb/"
+license = ["GPL-3.0"]
+source = "https://ftp.gnu.org/gnu/gdb/gdb-14.2.tar.xz"
+build_system = "autotools"
+depends = ["glibc", "ncurses", "python"]
+optional_depends = ["guile"]

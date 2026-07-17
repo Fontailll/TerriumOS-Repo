@@ -1,0 +1,9 @@
+name = "sed"
+version = "4.9"
+description = "A stream editor for filtering and transforming text"
+homepage = "https://www.gnu.org/software/sed/"
+license = ["GPL-3.0"]
+source = "https://ftp.gnu.org/gnu/sed/sed-4.9.tar.xz"
+build_system = "autotools"
+depends = ["glibc"]
+optional_depends = []
