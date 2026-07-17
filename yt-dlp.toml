@@ -1,9 +1,0 @@
-name = "yt-dlp"
-version = "2024.7.7"
-description = "A feature-rich command-line audio/video downloader"
-homepage = "https://github.com/yt-dlp/yt-dlp"
-license = ["Unlicense"]
-source = "https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2024.7.7.tar.gz"
-build_system = "make"
-depends = ["glibc", "python"]
-optional_depends = ["ffmpeg"]
