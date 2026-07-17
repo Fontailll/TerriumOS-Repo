@@ -336,3 +336,43 @@ file = "packages/feh.toml"
 [[package]]
 name = "imv"
 file = "packages/imv.toml"
+
+[[package]]
+name = "rofi"
+file = "packages/rofi.toml"
+
+[[package]]
+name = "dmenu"
+file = "packages/dmenu.toml"
+
+[[package]]
+name = "dunst"
+file = "packages/dunst.toml"
+
+[[package]]
+name = "picom"
+file = "packages/picom.toml"
+
+[[package]]
+name = "brightnessctl"
+file = "packages/brightnessctl.toml"
+
+[[package]]
+name = "playerctl"
+file = "packages/playerctl.toml"
+
+[[package]]
+name = "pamixer"
+file = "packages/pamixer.toml"
+
+[[package]]
+name = "networkmanager"
+file = "packages/networkmanager.toml"
+
+[[package]]
+name = "bluez"
+file = "packages/bluez.toml"
+
+[[package]]
+name = "pipewire"
+file = "packages/pipewire.toml"
