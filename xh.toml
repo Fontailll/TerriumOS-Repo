@@ -1,9 +1,0 @@
-name = "xh"
-version = "0.24.0"
-description = "A friendly and fast tool for sending HTTP requests"
-homepage = "https://github.com/ducaale/xh"
-license = ["MIT"]
-source = "https://github.com/ducaale/xh/archive/refs/tags/v0.24.0.tar.gz"
-build_system = "cargo"
-depends = ["glibc"]
-optional_depends = []
