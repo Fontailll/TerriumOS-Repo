@@ -1,9 +1,0 @@
-name = "libarchive"
-version = "3.7.4"
-description = "Multi-format archive and compression library"
-homepage = "https://libarchive.org/"
-license = ["BSD-2-Clause"]
-source = "https://github.com/libarchive/libarchive/releases/download/v3.7.4/libarchive-3.7.4.tar.xz"
-build_system = "cmake"
-depends = ["zlib", "xz", "zstd"]
-optional_depends = ["openssl"]
