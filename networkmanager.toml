@@ -1,9 +1,0 @@
-name = "networkmanager"
-version = "1.48.0"
-description = "A network management daemon"
-homepage = "https://networkmanager.dev/"
-license = ["GPL-2.0"]
-source = "https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/archive/1.48.0/NetworkManager-1.48.0.tar.gz"
-build_system = "meson"
-depends = ["glibc", "glib", "dbus", "openssl"]
-optional_depends = ["dhclient", "iwd"]
