@@ -1,9 +1,0 @@
-name = "tree"
-version = "2.1.1"
-description = "A directory listing program displaying a depth indented list of files"
-homepage = "https://oldmanprogrammer.net/tree.php"
-license = ["GPL-2.0"]
-source = "https://ipfs.io/ipns/QmdTFSM9UQvcqT6PKZ1pFLRvtGCkCSZB13WduWVPB3jd3u/tree-2.1.1.tar.gz"
-build_system = "make"
-depends = ["glibc"]
-optional_depends = []
