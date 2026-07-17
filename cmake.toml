@@ -1,9 +1,0 @@
-name = "cmake"
-version = "3.29.3"
-description = "A cross-platform build system generator"
-homepage = "https://cmake.org/"
-license = ["BSD-3-Clause"]
-source = "https://github.com/Kitware/CMake/releases/download/v3.29.3/cmake-3.29.3.tar.gz"
-build_system = "cmake"
-depends = ["openssl", "zlib"]
-optional_depends = []
