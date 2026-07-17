@@ -1,17 +1,258 @@
-repo = "Terrium Official"
+repo = "Terrium Official Repository"
+metadata_version = 1
 
 [[package]]
-name = "nano"
-file = "packages/nano.toml"
+name = "bash"
+file = "packages/bash.toml"
 
 [[package]]
-name = "vim"
-file = "packages/vim.toml"
+name = "binutils"
+file = "packages/binutils.toml"
+
+[[package]]
+name = "bzip2"
+file = "packages/bzip2.toml"
+
+[[package]]
+name = "cmake"
+file = "packages/cmake.toml"
+
+[[package]]
+name = "coreutils"
+file = "packages/coreutils.toml"
+
+[[package]]
+name = "curl"
+file = "packages/curl.toml"
+
+[[package]]
+name = "diffutils"
+file = "packages/diffutils.toml"
+
+[[package]]
+name = "e2fsprogs"
+file = "packages/e2fsprogs.toml"
+
+[[package]]
+name = "ffmpeg"
+file = "packages/ffmpeg.toml"
+
+[[package]]
+name = "file"
+file = "packages/file.toml"
+
+[[package]]
+name = "findutils"
+file = "packages/findutils.toml"
+
+[[package]]
+name = "flex"
+file = "packages/flex.toml"
+
+[[package]]
+name = "gawk"
+file = "packages/gawk.toml"
+
+[[package]]
+name = "gcc"
+file = "packages/gcc.toml"
+
+[[package]]
+name = "gdb"
+file = "packages/gdb.toml"
+
+[[package]]
+name = "gettext"
+file = "packages/gettext.toml"
 
 [[package]]
 name = "git"
 file = "packages/git.toml"
 
 [[package]]
-name = "gcc"
-file = "packages/gcc.toml"
+name = "glibc"
+file = "packages/glibc.toml"
+
+[[package]]
+name = "gmp"
+file = "packages/gmp.toml"
+
+[[package]]
+name = "grep"
+file = "packages/grep.toml"
+
+[[package]]
+name = "gzip"
+file = "packages/gzip.toml"
+
+[[package]]
+name = "htop"
+file = "packages/htop.toml"
+
+[[package]]
+name = "less"
+file = "packages/less.toml"
+
+[[package]]
+name = "libarchive"
+file = "packages/libarchive.toml"
+
+[[package]]
+name = "libffi"
+file = "packages/libffi.toml"
+
+[[package]]
+name = "libpng"
+file = "packages/libpng.toml"
+
+[[package]]
+name = "libtool"
+file = "packages/libtool.toml"
+
+[[package]]
+name = "linux"
+file = "packages/linux.toml"
+
+[[package]]
+name = "m4"
+file = "packages/m4.toml"
+
+[[package]]
+name = "make"
+file = "packages/make.toml"
+
+[[package]]
+name = "meson"
+file = "packages/meson.toml"
+
+[[package]]
+name = "mpc"
+file = "packages/mpc.toml"
+
+[[package]]
+name = "mpfr"
+file = "packages/mpfr.toml"
+
+[[package]]
+name = "nano"
+file = "packages/nano.toml"
+
+[[package]]
+name = "ncurses"
+file = "packages/ncurses.toml"
+
+[[package]]
+name = "ninja"
+file = "packages/ninja.toml"
+
+[[package]]
+name = "openssl"
+file = "packages/openssl.toml"
+
+[[package]]
+name = "patch"
+file = "packages/patch.toml"
+
+[[package]]
+name = "perl"
+file = "packages/perl.toml"
+
+[[package]]
+name = "pkgconf"
+file = "packages/pkgconf.toml"
+
+[[package]]
+name = "python"
+file = "packages/python.toml"
+
+[[package]]
+name = "readline"
+file = "packages/readline.toml"
+
+[[package]]
+name = "ripgrep"
+file = "packages/ripgrep.toml"
+
+[[package]]
+name = "rust"
+file = "packages/rust.toml"
+
+[[package]]
+name = "sed"
+file = "packages/sed.toml"
+
+[[package]]
+name = "sqlite"
+file = "packages/sqlite.toml"
+
+[[package]]
+name = "tar"
+file = "packages/tar.toml"
+
+[[package]]
+name = "texinfo"
+file = "packages/texinfo.toml"
+
+[[package]]
+name = "unzip"
+file = "packages/unzip.toml"
+
+[[package]]
+name = "util-linux"
+file = "packages/util-linux.toml"
+
+[[package]]
+name = "vim"
+file = "packages/vim.toml"
+
+[[package]]
+name = "wget"
+file = "packages/wget.toml"
+
+[[package]]
+name = "which"
+file = "packages/which.toml"
+
+[[package]]
+name = "xz"
+file = "packages/xz.toml"
+
+[[package]]
+name = "zlib"
+file = "packages/zlib.toml"
+
+[[package]]
+name = "zstd"
+file = "packages/zstd.toml"
+
+[[package]]
+name = "fastfetch"
+file = "packages/fastfetch.toml"
+
+[[package]]
+name = "neofetch"
+file = "packages/neofetch.toml"
+
+[[package]]
+name = "btop"
+file = "packages/btop.toml"
+
+[[package]]
+name = "tmux"
+file = "packages/tmux.toml"
+
+[[package]]
+name = "tree"
+file = "packages/tree.toml"
+
+[[package]]
+name = "fzf"
+file = "packages/fzf.toml"
+
+[[package]]
+name = "jq"
+file = "packages/jq.toml"
+
+[[package]]
+name = "rsync"
+file = "packages/rsync.toml"
