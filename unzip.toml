@@ -1,9 +1,0 @@
-name = "unzip"
-version = "6.0"
-description = "List, test and extract files from a ZIP archive"
-homepage = "https://infozip.sourceforge.net/UnZip.html"
-license = ["BSD-3-Clause"]
-source = "https://sourceforge.net/projects/infozip/files/UnZip%206.0%20of%20infozip/unzip60.tar.gz"
-build_system = "make"
-depends = ["glibc"]
-optional_depends = []
