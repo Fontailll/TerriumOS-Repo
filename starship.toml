@@ -1,9 +1,0 @@
-name = "starship"
-version = "1.19.0"
-description = "A minimal, blazing-fast, and infinitely customizable prompt for any shell"
-homepage = "https://starship.rs/"
-license = ["ISC"]
-source = "https://github.com/starship/starship/archive/refs/tags/v1.19.0.tar.gz"
-build_system = "cargo"
-depends = ["glibc"]
-optional_depends = []
