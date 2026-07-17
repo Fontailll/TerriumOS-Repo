@@ -256,3 +256,83 @@ file = "packages/jq.toml"
 [[package]]
 name = "rsync"
 file = "packages/rsync.toml"
+
+[[package]]
+name = "zsh"
+file = "packages/zsh.toml"
+
+[[package]]
+name = "fish"
+file = "packages/fish.toml"
+
+[[package]]
+name = "starship"
+file = "packages/starship.toml"
+
+[[package]]
+name = "nushell"
+file = "packages/nushell.toml"
+
+[[package]]
+name = "helix"
+file = "packages/helix.toml"
+
+[[package]]
+name = "micro"
+file = "packages/micro.toml"
+
+[[package]]
+name = "yazi"
+file = "packages/yazi.toml"
+
+[[package]]
+name = "lf"
+file = "packages/lf.toml"
+
+[[package]]
+name = "dua-cli"
+file = "packages/dua-cli.toml"
+
+[[package]]
+name = "dust"
+file = "packages/dust.toml"
+
+[[package]]
+name = "hyperfine"
+file = "packages/hyperfine.toml"
+
+[[package]]
+name = "bottom"
+file = "packages/bottom.toml"
+
+[[package]]
+name = "procs"
+file = "packages/procs.toml"
+
+[[package]]
+name = "tealdeer"
+file = "packages/tealdeer.toml"
+
+[[package]]
+name = "xh"
+file = "packages/xh.toml"
+
+[[package]]
+name = "yt-dlp"
+file = "packages/yt-dlp.toml"
+
+[[package]]
+name = "mpv"
+file = "packages/mpv.toml"
+
+[[package]]
+name = "zathura"
+file = "packages/zathura.toml"
+
+[[package]]
+name = "feh"
+file = "packages/feh.toml"
+
+[[package]]
+name = "imv"
+file = "packages/imv.toml"
