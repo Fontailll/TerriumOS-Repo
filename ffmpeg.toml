@@ -1,9 +1,0 @@
-name = "ffmpeg"
-version = "7.0.1"
-description = "A complete, cross-platform solution to record, convert and stream audio and video"
-homepage = "https://ffmpeg.org/"
-license = ["GPL-3.0", "LGPL-3.0"]
-source = "https://ffmpeg.org/releases/ffmpeg-7.0.1.tar.xz"
-build_system = "autotools"
-depends = ["zlib", "libpng"]
-optional_depends = ["x264", "x265", "libvpx", "svt-av1", "dav1d"]
